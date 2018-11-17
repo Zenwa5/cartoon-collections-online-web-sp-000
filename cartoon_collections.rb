@@ -8,9 +8,10 @@ end
 def summon_captain_planet(planeteer_calls)
   i = 0
   while planeteer_calls.length > i
+    names2 = []
     planeteer_calls.map do |names|
       names + "!"
-      names2 = []
+      
       names2 << names
        i += 1
        return names2
