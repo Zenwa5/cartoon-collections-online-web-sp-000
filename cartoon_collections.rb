@@ -17,7 +17,7 @@ def summon_captain_planet(planeteer_calls)
 
      end
   end
-names.split("!")
+names2
 end
 
 def long_planeteer_calls# code an argument here
