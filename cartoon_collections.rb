@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer_calls)
   while planeteer_calls.length > i
     planeteer_calls.map do |names|
       names + "!"
-
+       i += 1
 
 end
 
