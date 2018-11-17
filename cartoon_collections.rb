@@ -13,10 +13,10 @@ def summon_captain_planet(planeteer_calls)
       names.capitalize
       names + "!"
        i += 1
-      names2 << names
+      names
      end
   end
-  planeteer_calls
+  
 end
 
 def long_planeteer_calls# code an argument here
