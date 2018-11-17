@@ -6,9 +6,6 @@ def roll_call_dwarves(dwarves)
   end
 end
 def summon_captain_planet(planeteer_calls)
-  i = 0
-  names2 = []
-  while planeteer_calls.length > i
     planeteer_calls.collect do |names|
       names.capitalize + "!"
      end
