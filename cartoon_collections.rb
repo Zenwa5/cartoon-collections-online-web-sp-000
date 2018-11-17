@@ -13,7 +13,7 @@ def summon_captain_planet(planeteer_calls)
       names.upcase
       names + "!"
        i += 1
-
+      names2 << names
      end
   end
   names2
