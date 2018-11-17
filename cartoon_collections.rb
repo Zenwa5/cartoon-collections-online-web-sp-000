@@ -11,7 +11,6 @@ def summon_captain_planet(planeteer_calls)
   while planeteer_calls.length > i
     planeteer_calls.collect do |names|
       names.capitalize + "!"
-    end
        i += 1
        names2 << names
      end
