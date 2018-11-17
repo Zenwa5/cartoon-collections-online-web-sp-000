@@ -11,7 +11,6 @@ def summon_captain_planet(planeteer_calls)
     names2 = []
     planeteer_calls.map do |names|
       names.upcase
-      names.split("!")
       names2 << names
        i += 1
      end
